@@ -26,7 +26,13 @@ html {
     color: #ffffff;
     font-size: 24px;
     font-weight: bold;
-    box-shadow: 0px 0px 50px 10px rgb(255, 255, 255, 0.5);;
+    box-shadow: 0px 0px 50px 10px rgb(255, 255, 255, 0.5);
+    transition-duration: 1s;
+  }
+  .pet:hover {
+    width: 110px;
+    box-shadow: 0px 0px 100px 20px rgb(255, 255, 255, 0.5);
+    transition-duration: 1s;
   }
   .jeremy {
     animation: spinpet 2s ease-in-out infinite;
@@ -50,4 +56,5 @@ html {
     letter-spacing: 10px;
     transition-duration: 1s;
     color: #85ff87;
+    text-shadow: 0px 0px 20px  rgb(0, 255, 17);
   }
